@@ -1,19 +1,30 @@
-h1{
-    font-size: 2em;
-    color: #000000;
-    margin-bottom: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+html{
+     background-color: antiquewhite;
+     user-select: none;
 }
 main{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 85vh;
+    width : 85vh ;
+    margin-left: 400px;
     flex-direction: column;
     background: linear-gradient(135deg, #f6d365, #96e6a1);
-    border: #000000;
+    border : 2px solid #000000;
+    box-shadow: #000000;
+    border-radius: 10px;
     
     
+}
+image{
+    border-radius: 10px;
+}
+h1{
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button{
     padding: 10px 20px;
@@ -33,4 +44,29 @@ button:hover{
     margin: 10px;
     border: none;
     border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    background-color: #9998e3;
+    padding: 10px;
+    width: 100px;  
+
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    flex-grow: 1;
+    text-align: center  ;
+   
+}
+ ul li:hover{
+    background-color: #b336a0;
+    cursor: pointer;
 }
