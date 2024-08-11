@@ -22,6 +22,13 @@ const inputElement = document.getElementById("input-feild");
 const addButtonEl = document.getElementById("add-button");
 const listElement = document.getElementById("list");
 
+
+inputElement.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      addButtonEl.click();
+    }
+  });
+
 addButtonEl.addEventListener("click", function () {
   let inputvalue = inputElement.value;
 
