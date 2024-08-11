@@ -1,0 +1,35 @@
+h1{
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f6d365, #96e6a1);
+    border: #000000;
+    
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.name-input{
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
