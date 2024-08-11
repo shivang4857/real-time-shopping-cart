@@ -17,6 +17,28 @@ main{
     
     
 }
+
+
+#logged-in{
+    display: none;
+    
+
+}
+
+#logged-out{
+    display: none;
+}
+
+h3{
+    text-align: center;
+    color: #534e4e;
+}
+
+h3:hover{
+   text-decoration: underline   ;
+   cursor: pointer;
+}
+
 image{
     border-radius: 10px;
 }

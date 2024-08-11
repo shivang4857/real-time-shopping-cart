@@ -8,15 +8,38 @@
     <link rel="icon" href="assets/shoppingcart.ico" type="image/x-icon" />
   </head>
   <body>
-    <main class="main1">
-      <h1>Shopping cart</h1>
 
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQotdcjpNlhOl6Tmy14L_pV-HxRyD-EhNboA&s"
-        alt="image  not avaialble"
-      />
 
-      <input
+    <section id ="logged-out">
+        <main class="main1">
+
+            <h1>Shopping cart</h1>
+      
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQotdcjpNlhOl6Tmy14L_pV-HxRyD-EhNboA&s"
+              alt="image  not avaialble"
+            />
+           
+        <button id="googlebtn" class="btn">sign in using google</button>
+        </main>
+      </section>
+
+
+        
+      <section id = "logged-in">
+        <main class="main1">
+
+            <h3 id = "log-out"> Log-out</h3>
+
+            <h1>Shopping cart</h1>
+      
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQotdcjpNlhOl6Tmy14L_pV-HxRyD-EhNboA&s"
+              alt="image  not avaialble"
+            />
+       
+
+        <input
         type="text"
         id="input-feild"
         class="name-input"
@@ -24,7 +47,13 @@
       />
       <button id="add-button" class="btn">add to cart</button>
       <ul id="list" class="list"></ul>
-    </main>
+      </main>
+    
+
+      </section>
+
+      
+   
     <script src="index.js" type="module"></script>
   </body>
 </html>
